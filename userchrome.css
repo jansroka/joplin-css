@@ -21,3 +21,9 @@ div.new-note-todo-buttons {
 .sidebar > div > div:nth-of-type(3) {
     display: none !important;
 }
+
+/* hide tag bar below the editor */
+/* Source: figured this out myself */
+.tag-bar {
+    display: none !important;
+}
