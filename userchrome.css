@@ -1,5 +1,4 @@
 /* Source: https://discourse.joplinapp.org/t/joplin-customization/11195 */
-
 button.new-todo-button {
     /* removes the "New To-do" button (v2.10.6+) */
     display: none;
@@ -8,4 +7,17 @@ div.new-note-todo-buttons {
      /* removes the the space for the "New To-do" button (v2.10.6+) */
     grid-template-columns: 1fr 0;
     gap: 0px;
+}
+
+/* Hide tags from sidebar
+   Source: https://discourse.joplinapp.org/t/hide-tags-section-from-sidebar-left-most-panel/16886/3
+*/
+/* list of tags */
+.tags {
+    display: none !important;
+}
+
+/* tags header */
+.sidebar > div > div:nth-of-type(3) {
+    display: none !important;
 }
