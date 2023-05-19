@@ -27,3 +27,9 @@ div.new-note-todo-buttons {
 .tag-bar {
     display: none !important;
 }
+
+/* hide "All notes" from the sidebar */
+/* Source: figured this out myself */
+.all-notes {
+    display: none !important;
+}
