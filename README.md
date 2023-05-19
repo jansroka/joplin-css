@@ -11,8 +11,8 @@ rm ~/.config/joplin-desktop/userchrome.css
 
 2. Softlink the `userstyle.css` and `userchrome.css` files in this repo into the Joplin config dir
 ```
-ln -s <local path to repo>/joplin-theme/userstyle.css ~/.config/joplin-desktop/userstyle.css
-ln -s <local path to repo>/joplin-theme/userchrome.css ~/.config/joplin-desktop/userchrome.css
+ln -s <local path to repo>/userstyle.css ~/.config/joplin-desktop/userstyle.css
+ln -s <local path to repo>/userchrome.css ~/.config/joplin-desktop/userchrome.css
 ```
 
 Now you have these 2 files under source control.
