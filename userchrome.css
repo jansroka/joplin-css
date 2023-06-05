@@ -33,3 +33,15 @@ div.new-note-todo-buttons {
 .all-notes {
     display: none !important;
 }
+
+
+/*  Inportant: this css rule overwrite does not work!
+    Instead, change "Maximum breadcrum width (px)" in the Note Tabs plugin 
+    settings to something more suitable, like 300
+
+*/
+/* Improve readability of breadcrumbs shown by "Note Tabs" plugin */
+/* Source: figured this out myself */
+.breadcrumb {
+    max-width: 100% !important; /* default is max-width: 100px;*/
+}
