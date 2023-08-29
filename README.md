@@ -1,5 +1,7 @@
 # My Joplin CSS
 
+**Archive Note:** I was testing and playing with Joplin in H1/2023 and found it to be a very interesting project. So much that I started customizing it with my own CSS (this repo). It however lacked quite a few features that I needed, thus I switched back to my previous note taking app and archived this repo.
+
 This repo contains the CSS that I use to customize how [Joplin Desktop](https://joplinapp.org/) on OSX looks. The default is a a bit, well, meh to my eyes.
 
 ## How to set up
